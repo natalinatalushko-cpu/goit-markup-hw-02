@@ -10,6 +10,16 @@
     "wdth" 100;
 } */
 
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+/* .raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 body {
 	background-color: #434455;
 	font-family: 'Roboto', sans-serif;
@@ -39,4 +49,14 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2E2F42;
 	margin: 0;
 	padding: 0;
+}
+
+.page-wrapper {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
 }

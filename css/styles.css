@@ -59,4 +59,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
 	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 21px;
+	letter-spacing: 3%;
+	color: #2E2F42;
+	margin-right: 75px;
+}
+
+.logo-web {
+  color: #4D5AE5;
+}
+
+.page-nav .nav-list {
+	display: flex;
+	gap: 40px;
 }

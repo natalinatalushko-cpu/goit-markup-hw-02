@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	line-height: 21px;
 	color: #2E2F42;
+	text-transform: uppercase;
 }
 
 .logo-web {
@@ -88,9 +89,22 @@ h1, h2, h3, h4, h5, h6 {
 
 address {
 	margin-left: auto;
+	font-style: normal;
 }
 
 address ul {
 	display: flex;
     gap: 42px;
 }
+
+.main-banner-hero {
+	background-color: #2E2F42;
+}
+
+.main-headder {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 56px;
+	font-weight: 600;
+}
+

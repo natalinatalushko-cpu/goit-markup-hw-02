@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: space-between;
 	align-items: left;
 	padding: 20px 0;
+	justify-content: flex-start;
+    gap: 70px;
 }
 
 .logo {
@@ -78,4 +80,17 @@ h1, h2, h3, h4, h5, h6 {
 .page-nav .nav-list {
 	display: flex;
 	gap: 40px;
+}
+
+.page-nav .nav-list a {
+	font-weight: 600;
+}
+
+address {
+	margin-left: auto;
+}
+
+address ul {
+	display: flex;
+    gap: 42px;
 }

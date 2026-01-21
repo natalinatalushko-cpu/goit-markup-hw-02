@@ -26,7 +26,6 @@ body {
 	font-size: 16px;
 	line-height: 24px;
 	color: #000000;
-	letter-spacing: 2%;
 }
 
 a {
@@ -60,13 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 .page-header {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: left;
 	padding: 20px 0;
-}
-
-.header-logo-menu .logo{
-	float: left;
-    margin-right: 75px;
 }
 
 .logo {
@@ -74,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 21px;
-	letter-spacing: 3%;
 	color: #2E2F42;
 }
 

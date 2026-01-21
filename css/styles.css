@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px 0;
 }
 
+.header-logo-menu .logo{
+	float: left;
+    margin-right: 75px;
+}
+
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;

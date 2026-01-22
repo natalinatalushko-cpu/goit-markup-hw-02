@@ -102,6 +102,7 @@ h2 {
 	font-size: 36px;
 	font-weight: bold;
 	letter-spacing: 2%;
+	text-align: center;
 }
 
 h3 {
@@ -109,6 +110,7 @@ h3 {
 	font-size: 20px;
 	font-weight: medium;
 	letter-spacing: 2%;
+	text-align: center;
 }
 
 button {
@@ -124,8 +126,8 @@ button:hover {
 	background-color: #404BBF;
 }
 
-.page-wrapper {
-  
+.center {
+	text-align: center;
 }
 
 .container {
@@ -150,6 +152,10 @@ button:hover {
 	line-height: 1.17;
 	color: #2E2F42;
 	text-transform: uppercase;
+}
+
+.footer-content .logo {
+	background-color: F4F4FD;
 }
 
 .accent-blue {
@@ -191,9 +197,12 @@ address ul {
 }
 
 .main-banner-hero {
-	background-color: #2E2F42;
 	padding-top: 195px;
 	padding-bottom: 188px;
+}
+
+.background-neawy-blue{
+	background-color: #2E2F42;
 }
 
 .button-section {

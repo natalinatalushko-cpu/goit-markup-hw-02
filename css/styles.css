@@ -154,8 +154,8 @@ button:hover {
 	text-transform: uppercase;
 }
 
-.footer-content .logo {
-	background-color: F4F4FD;
+.footer-content .logo a{
+	color: #F4F4FD;
 }
 
 .accent-blue {
@@ -223,3 +223,6 @@ address ul {
   overflow: hidden;
 }
 
+.footer-content p {
+	color: #E7E9FC;
+}

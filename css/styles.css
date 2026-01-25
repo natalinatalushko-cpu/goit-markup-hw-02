@@ -136,6 +136,10 @@ h3 {
 	text-align: center;
 }
 
+.background-neawy-blue {
+	background-color: #2E2F42;
+}
+
 features-h3 {
 	text-align: left;
 	letter-spacing: 0.02em;
@@ -243,10 +247,6 @@ section#team-block ul li {
 /* end-team-section */
 
 /* footer */
-
-footer {
-    background-color: #2E2F42;
-}
 
 .footer-content .logo {
 	text-decoration: none;

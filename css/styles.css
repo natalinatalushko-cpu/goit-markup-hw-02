@@ -103,7 +103,7 @@ ol {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #2E2F42;
+	color: #434455;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -156,7 +156,8 @@ button {
 	color: #ffffff;
 }
 
-button:hover {
+button:hover,
+button:focus {
 	background-color: #404BBF;
 }
 
@@ -206,15 +207,6 @@ address {
 	font-style: normal;
 }
 
-.main-header {
-	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 56px;
-	font-weight: 600;
-	text-align:center;
-	margin-bottom: 58px;
-}
-
 /* end header */
 
 
@@ -232,6 +224,17 @@ address {
 }
 
 /* hero block */
+
+.main-header {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	text-align:center;
+	margin-bottom: 58px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+}
 
 .main-banner-hero {
 	padding-top: 195px;
